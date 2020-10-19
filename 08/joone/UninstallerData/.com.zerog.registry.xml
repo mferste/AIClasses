@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2020-10-19 17:55:52" version="1.1" last_modified="2020-10-19 17:55:58">
+	<products>
+		<product name="Joone" id="45283677-1ec6-11b2-9112-a97830733a2b" version="2.0.0.0" copyright="2006" info_url="http://www.joone.org" support_url="" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone" last_modified="2020-10-19 17:55:56">
+		<![CDATA[Visual editor to build/train and test neural networks]]>
+			<vendor name="Paolo Marrone" id="532a46b7-1ec6-11b2-911f-a97830733a2b" home_page="http://www.joone.org" email="pmarrone@users.sourceforge.net"/>
+			<feature name="Application" last_modified="2020-10-19 17:55:56">
+			<![CDATA[This installs the application feature.]]>
+				<component ref_id="452836c7-1ec6-11b2-9119-a97830733a2b" version="1.0.0.0" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/Uninstall_joone"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="452836c7-1ec6-11b2-9119-a97830733a2b" version="1.0.0.0" name="Common" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/Uninstall_joone" vendor="Paolo Marrone">
+			<resource keyfile="false" name="Joone_InstallLog.log" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/Joone_InstallLog.log" type="file" uninstall="true"/>
+			<resource keyfile="false" name="joone" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="UninstallerData" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/uninstaller.jar" type="file" uninstall="true"/>
+			<resource keyfile="true" name="Uninstall_joone" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/Uninstall_joone" type="executable" uninstall="true"/>
+			<resource keyfile="false" name="Uninstall_joone.lax" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/Uninstall_joone.lax" type="file" uninstall="true"/>
+			<resource keyfile="false" name="lax.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lax.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Joone" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/Joone" type="executable" uninstall="true"/>
+			<resource keyfile="false" name="Joone.lax" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/Joone.lax" type="file" uninstall="true"/>
+			<resource keyfile="false" name="lib" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="joone-engine.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/joone-engine.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="joone-editor.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/joone-editor.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="bsh.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/bsh.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="jakarta-poi.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/jakarta-poi.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="jh.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/jh.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="jhotdraw.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/jhotdraw.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="log4j.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/log4j.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="visad.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/visad.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xstream.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/xstream.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="groovy.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/groovy.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="l2fprod-common-sheet.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/l2fprod-common-sheet.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="nachocalendar.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/nachocalendar.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="velocity-dep.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/lib/velocity-dep.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="license.txt" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/license.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="samples" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="editor" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="pca" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/pca" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Sanger.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/pca/Sanger.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="msft.xls" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/pca/msft.xls" type="file" uninstall="true"/>
+			<resource keyfile="false" name="recurrent" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/recurrent" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Elman.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/recurrent/Elman.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Jordan.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/recurrent/Jordan.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="scripting" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ValidationSample.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/ValidationSample.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="initframe.bsh" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/initframe.bsh" type="file" uninstall="true"/>
+			<resource keyfile="false" name="validation.bsh" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/validation.bsh" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wine.xls" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/wine.xls" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InputConnector" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/InputConnector" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ValidationSample.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/scripting/InputConnector/ValidationSample.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="synapses" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/synapses" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Synapses.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/synapses/Synapses.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xor" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/xor" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="xor.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/xor/xor.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xor.txt" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/xor/xor.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InputConnector" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/xor/InputConnector" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="XOR_using_InputConnector.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/xor/InputConnector/XOR_using_InputConnector.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="TimeSeries" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/TimeSeries" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="DelayLayerSample.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/TimeSeries/DelayLayerSample.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="TurningPtsExtractor.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/TimeSeries/TurningPtsExtractor.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="som" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="CoordGenerator.java" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/CoordGenerator.java" type="file" uninstall="true"/>
+			<resource keyfile="false" name="som.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/som.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ImageDrawer.java" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/ImageDrawer.java" type="file" uninstall="true"/>
+			<resource keyfile="false" name="CoordGenerator.form" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/CoordGenerator.form" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ImagePainter.java" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/ImagePainter.java" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageTester.form" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageTester.form" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageTester.java" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageTester.java" type="file" uninstall="true"/>
+			<resource keyfile="false" name="4As4Bs.txt" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/4As4Bs.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageNet.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageNet.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="testA.txt" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/testA.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="testB.txt" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/testB.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageTester.jar" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageTester.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageTester.bat" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageTester.bat" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SOMImageTester.sh" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/som/SOMImageTester.sh" type="file" uninstall="true"/>
+			<resource keyfile="false" name="charting" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/charting" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="MultSerie.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/charting/MultSerie.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MultSerieVisAD.ser" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/samples/editor/charting/MultSerieVisAD.ser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="layers.xml" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/layers.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="RunEditor.sh" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/RunEditor.sh" type="file" uninstall="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="/home/mferste/faculdadedaindustria/_IA/AIClasses/08/joone/UninstallerData/.com.zerog.registry.xml" type="file" uninstall="true"/>
+		</component>
+	</components>
+</registry>
